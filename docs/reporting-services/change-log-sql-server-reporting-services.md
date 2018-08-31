@@ -19,6 +19,19 @@ This article describes changes in [!INCLUDE[ssRSnoversion](../includes/ssrsnover
 
 ## SQL Server 2017 Reporting Services 
 
+- *Version 14.0.600.892, Released: August 31, 2018* 
+    - Bug Fixes:
+        - Textbox inside Rectangle causes rectangle not to grow vertically when rc:Toolbar=False and it has long text
+        - Text size is not scaling if pageHeight is less than 0.5 in
+        - Deadlock in SSRS catalog database when used with CRM
+        - Vertically aligned column headers incorrectly displayed when scrolling down in report
+        - Users added to SCOM Reporting Role will have access blocked to SSRS web portal
+        - Thai character is not getting exported correctly in PDF
+        - Browser Role Behavior Change
+        - rc:Toolbar=false doesn't work in Express edition
+        - Missing vertical scrollbar in parameter prompt area
+        - Updated Mobile Report Runtime
+
 - *Version 14.0.600.744, Released: April 25, 2018* 
     - Bug Fixes:
         - Data Driven Subscription page does not show the Delivery Option once it is created
